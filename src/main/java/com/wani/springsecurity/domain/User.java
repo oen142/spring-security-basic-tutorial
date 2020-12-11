@@ -20,6 +20,9 @@ public class User {
     private String password;
     private String email;
     private String role;
+    private String provider; // "google"
+    private String providerId; // 구글 sub 아이디를 넣는다.
+
 
     @CreatedDate
     private LocalDateTime createDate;
